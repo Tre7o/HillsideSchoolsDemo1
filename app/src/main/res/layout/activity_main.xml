@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/welcome_bg">
+
+    <Button
+        android:id="@+id/existBtn"
+        android:layout_width="270dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/existing_button"
+        android:fontFamily="@font/montserrat_bold"
+        android:onClick="accountExists"
+        android:padding="10dp"
+        android:text="@string/email"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.85" />
+
+    <Button
+        android:id="@+id/facebookBtn"
+        android:layout_width="270dp"
+        android:layout_height="60dp"
+        android:backgroundTint="@color/white"
+        android:elevation="30dp"
+        android:fontFamily="@font/montserrat_bold"
+        android:onClick="facebookSign"
+        android:padding="10dp"
+        android:text="@string/facebook"
+        android:textColor="@color/grey"
+        app:cornerRadius="100dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/existBtn"
+        app:layout_constraintVertical_bias="0.25" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="345dp"
+        android:layout_height="130dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.15"
+        app:srcCompat="@drawable/hillsideschools_logo" />
+
+    <TextView
+        android:id="@+id/welcome"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:elevation="10dp"
+        android:fontFamily="@font/montserrat_regular"
+        android:text="@string/welcome_hillside"
+        android:textAlignment="center"
+        android:textColor="@color/hillside_green"
+        android:textSize="35sp"
+        app:layout_constraintBottom_toTopOf="@+id/existBtn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView"
+        app:layout_constraintVertical_bias="0.47000003" />
+
+    <TextView
+        android:id="@+id/connect"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/montserrat_regular"
+        android:text="@string/connect_with_us"
+        android:textSize="16sp"
+        android:textColor="@color/hillside_grey"
+        app:layout_constraintBottom_toTopOf="@+id/existBtn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/welcome"
+        app:layout_constraintVertical_bias="0.9" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

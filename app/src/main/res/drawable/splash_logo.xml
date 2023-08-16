@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:drawable="@color/hillside_green"/> <!--layer-->
+    <item
+        android:drawable="@drawable/hillsideschools_logo"
+        android:gravity="center"
+        android:width="200dp"
+        android:height="65dp"/> <!--layer-->
+
+</layer-list>

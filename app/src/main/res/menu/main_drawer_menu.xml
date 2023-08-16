@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:title="@string/our_team">
+            <menu>
+                <item
+                    android:id="@+id/leadership"
+                    android:title="@string/leadership_team"
+                    android:icon="@drawable/baseline_people_outline_24"/>
+
+                <item
+                    android:id="@+id/hod"
+                    android:title="@string/head_of_departments"
+                    android:icon="@drawable/baseline_people_alt_24"/>
+
+                <item
+                    android:id="@+id/coordinators"
+                    android:title="@string/school_coordinators"
+                    android:icon="@drawable/baseline_control_camera_24"/>
+            </menu>
+        </item>
+
+        <item
+            android:title="@string/about_us">
+
+            <menu>
+                <item
+                    android:id="@+id/background"
+                    android:title="@string/background"
+                    android:icon="@drawable/baseline_photo_camera_back_24"/>
+
+                <item
+                    android:id="@+id/admissions"
+                    android:title="@string/admissions"
+                    android:icon="@drawable/baseline_person_add_alt_1_24"/>
+
+                <item
+                    android:id="@+id/rules"
+                    android:title="@string/rules_and_regulations"
+                    android:icon="@drawable/baseline_menu_book_24"/>
+
+                <item
+                    android:id="@+id/fees"
+                    android:title="@string/fees_structure"
+                    android:icon="@drawable/baseline_balance_24"/>
+
+            </menu>
+        </item>
+
+        <item android:title="@string/organization">
+            <menu>
+                <item
+                    android:id="@+id/nursery"
+                    android:title="@string/nursery_schools"
+                    android:icon="@drawable/baseline_school_24"/>
+
+                <item
+                    android:id="@+id/facilities"
+                    android:title="@string/facilities"
+                    android:icon="@drawable/baseline_view_agenda_24"/>
+
+                <item
+                    android:id="@+id/co_curricular"
+                    android:title="@string/co_curricular"
+                    android:icon="@drawable/baseline_sports_soccer_24"/>
+
+                <item
+                    android:id="@+id/ple"
+                    android:title="@string/ple_results"
+                    android:icon="@drawable/baseline_library_books_24"/>
+            </menu>
+
+        </item>
+    </group>
+
+</menu>

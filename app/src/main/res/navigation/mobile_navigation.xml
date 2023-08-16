@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/home">
+
+    <fragment
+        android:id="@+id/home"
+        android:name="com.trev.hillsideschoolsdemo1.HomeFragment"
+        android:label="@string/home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/gallery"
+        android:name="com.trev.hillsideschoolsdemo1.GalleryFragment"
+        android:label="@string/gallery"
+        tools:layout="@layout/fragment_gallery" />
+
+    <fragment
+        android:id="@+id/contact"
+        android:name="com.trev.hillsideschoolsdemo1.ContactFragment"
+        android:label="@string/contact_us"
+        tools:layout="@layout/fragment_contact" />
+
+    <fragment
+        android:id="@+id/leadership"
+        android:name="com.trev.hillsideschoolsdemo1.LeadershipFragment"
+        android:label="Leadership Team"
+        tools:layout="@layout/fragment_leadership" />
+
+    <fragment
+        android:id="@+id/hod"
+        android:name="com.trev.hillsideschoolsdemo1.HeadFragment"
+        android:label="Head of Departments"
+        tools:layout="@layout/fragment_head" />
+
+    <fragment
+        android:id="@+id/coordinators"
+        android:name="com.trev.hillsideschoolsdemo1.CoordinatorsFragment"
+        android:label="School Coordinators"
+        tools:layout="@layout/fragment_coordinators" />
+
+    <fragment
+        android:id="@+id/background"
+        android:name="com.trev.hillsideschoolsdemo1.BackgroundFragment"
+        android:label="@string/background"
+        tools:layout="@layout/fragment_background" />
+
+    <fragment
+        android:id="@+id/admissions"
+        android:name="com.trev.hillsideschoolsdemo1.AdmissionsFragment"
+        android:label="@string/admissions"
+        tools:layout="@layout/fragment_admissions" />
+
+    <fragment
+        android:id="@+id/rules"
+        android:name="com.trev.hillsideschoolsdemo1.RulesFragment"
+        android:label="@string/rules_and_regulations"
+        tools:layout="@layout/fragment_rules" />
+
+    <fragment
+        android:id="@+id/fees"
+        android:name="com.trev.hillsideschoolsdemo1.FeesStructureFragment"
+        android:label="@string/fees_structure"
+        tools:layout="@layout/fragment_fees_structure" />
+
+    <fragment
+        android:id="@+id/nursery"
+        android:name="com.trev.hillsideschoolsdemo1.NurseryFragment"
+        android:label="@string/nursery_schools"
+        tools:layout="@layout/fragment_nursery" />
+
+    <fragment
+        android:id="@+id/facilities"
+        android:name="com.trev.hillsideschoolsdemo1.FacilitiesFragment"
+        android:label="@string/facilities"
+        tools:layout="@layout/fragment_facilities" />
+
+    <fragment
+        android:id="@+id/co_curricular"
+        android:name="com.trev.hillsideschoolsdemo1.CurriculumFragment"
+        android:label="@string/co_curricular"
+        tools:layout="@layout/fragment_curriculum" />
+
+    <fragment
+        android:id="@+id/ple"
+        android:name="com.trev.hillsideschoolsdemo1.ResultsFragment"
+        android:label="@string/ple_results"
+        tools:layout="@layout/fragment_results" />
+
+</navigation>

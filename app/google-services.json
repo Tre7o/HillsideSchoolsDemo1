@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "559478447673",
+    "project_id": "hillsideschoolsdemo1",
+    "storage_bucket": "hillsideschoolsdemo1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:559478447673:android:82108b389321f5a8b837e8",
+        "android_client_info": {
+          "package_name": "com.trev.hillsideschoolsdemo1"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "559478447673-mnrnh42a7p2112iogkkmjst8nap4r6m8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBDRDZnfiXb5jZelvegzUfLEVW505zD3SM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "559478447673-mnrnh42a7p2112iogkkmjst8nap4r6m8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

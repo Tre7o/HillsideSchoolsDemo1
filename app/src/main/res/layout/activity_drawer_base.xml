@@ -42,7 +42,6 @@
                 app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
                 app:titleTextColor="@color/hillside_green" />
 
-
         </com.google.android.material.appbar.AppBarLayout>
 
         <fragment
@@ -68,7 +67,6 @@
             app:menu="@menu/bottom_nav_menu">
 
         </com.google.android.material.bottomnavigation.BottomNavigationView>
-
     </androidx.constraintlayout.widget.ConstraintLayout>
     
     <com.google.android.material.navigation.NavigationView
@@ -85,5 +83,4 @@
         app:menu="@menu/main_drawer_menu">
 
     </com.google.android.material.navigation.NavigationView>
-
 </androidx.drawerlayout.widget.DrawerLayout>

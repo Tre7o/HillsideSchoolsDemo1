@@ -106,7 +106,8 @@
             android:textColorHint="@color/grey"
             app:errorEnabled="true"
             app:startIconDrawable="@drawable/lock"
-            app:endIconMode="password_toggle">
+            app:passwordToggleEnabled="true"
+            app:passwordToggleDrawable="@drawable/password_toggle">
 
             <com.google.android.material.textfield.TextInputEditText
                 android:id="@+id/editPassword"

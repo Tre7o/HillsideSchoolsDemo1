@@ -1,5 +1,5 @@
 # HillsideSchoolsDemo1
-A firebase android application designed for the Hillside Primary and Nursery school, to display relevenat information
+A firebase android application designed for the Hillside Primary and Nursery school, to display relevant information
 
 Application UI
 
